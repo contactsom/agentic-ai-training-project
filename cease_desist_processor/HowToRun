@@ -1,0 +1,9 @@
+# 1. Activate venv
+source .venv/bin/activate
+
+# 2. Set AWS credentials (Bedrock access required)
+export AWS_ACCESS_KEY_ID=<your_key>
+export AWS_SECRET_ACCESS_KEY=<your_secret>
+
+# 3. Run
+python3 -m cease_desist_processor.main
